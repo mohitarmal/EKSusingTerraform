@@ -8,6 +8,6 @@ variable "cluster-name" {
 }
 
 variable "instance_type" {
-  default = "t3.small"
+  default = "t3a.large"
   type    = string 
 }
