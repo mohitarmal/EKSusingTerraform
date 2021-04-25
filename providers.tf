@@ -3,8 +3,6 @@
 #
 
 provider "aws" {
-#  access_key = "AKIAWXJPBGZNKV3KEOW3"
- # secret_key = "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"
   shared_credentials_file = "$HOME/.aws/creds"
   region = "ap-south-1"
   version = ">= 2.38.0"
