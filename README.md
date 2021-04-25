@@ -14,11 +14,11 @@ Steps to create EKS cluster:-
       ![image](https://user-images.githubusercontent.com/83169868/116001811-1c57b980-a614-11eb-8560-3f39c553f73b.png)
    
 3)Edit provider.tf file to update region. 
-5)terraform init -->to initialize a working directory containing Terraform configuration files 
-6)terraform plan -->used to create an execution plan 
-7)terraform apply -->auto-approve  --> approve without prompt
-8)terraform state list -->shows the list of resources created(verify whether resources are created on aws or not.)
-9)terraform output kubeconfig > ~/.kube/config  --> save the kubeconfig file at home location
-10)aws configure --> provide necessary credential
-11)kubectl get nodes
-12)terraform destroy --> to destroy created resources
+4)terraform init -->to initialize a working directory containing Terraform configuration files 
+5)terraform plan -->used to create an execution plan 
+6)terraform apply -->auto-approve  --> approve without prompt
+7)terraform state list -->shows the list of resources created(verify whether resources are created on aws or not.)
+8)terraform output kubeconfig > ~/.kube/config  --> save the kubeconfig file at home location
+9)aws configure --> provide necessary credential
+10)kubectl get nodes
+11)terraform destroy --> to destroy created resources
