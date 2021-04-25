@@ -8,7 +8,7 @@ Required tools: 1)awscli -->https://linuxtechlab.com/easy-way-to-install-aws-cli
                 2)terraform -->https://www.cyberithub.com/how-to-install-terraform-on-centos-7/
                 3)aws-iam-authenticator -->https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
 
-git clone https://github.com/mohitarmal/EKSusingTerraform.git \n
+git clone https://github.com/mohitarmal/EKSusingTerraform.git 
 cd EKSusingTerraform/
 
 
